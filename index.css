@@ -1,39 +1,91 @@
+/* Baskervville SC */
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Cinzel:wght@400..900&display=swap');
+/* Cinzel */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+/* Antic */
+@import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body {
-}
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100vw;
 }
 .title {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     width: 100vw;
-    padding: 2rem 0;
+    padding: 2rem 1rem;
+    background-color: whitesmoke;
 }
 h1 {
-    font-size: 3.5rem;
+    font-size: 3.7rem;
+    font-family: "Baskervville SC";
+    font-weight: 500;
+    color: rgb(83, 31, 0);
+}
+.log1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.log2 {
+    display: flex;
+    flex-direction: column;
 }
 .navbar {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100vw;
-    padding: 1.5rem 3rem;
+    /* padding: 1.5rem 3rem; */
+    background-color: rgb(152, 191, 100);
+    flex-wrap: wrap;
 }
 .options {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100vw;
     flex-wrap: wrap;
 }
 img {
-    width: 15vw;
+    width: 13vw;
+}
+.navbar>a {
+    color: rgb(110, 49, 5);
+    /* padding: 1rem; */
+    font-family: "Antic";
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 1.5rem 5rem;
+
+}
+.options span {
+    font-family: "Cinzel";
+    font-weight: 500;
+    font-size: 1.5rem;
+    /* color: floralwhite; */
+}
+.options a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+main {
+    padding: 3rem 0;
+}
+button a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: "Antic";
+    font-weight: 400;
 }
