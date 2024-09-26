@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    padding: 2rem 0;
+}
+h1 {
+    font-size: 3.5rem;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 1.5rem 3rem;
+}
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+img {
+    width: 15vw;
+}
