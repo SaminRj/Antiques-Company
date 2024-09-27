@@ -25,7 +25,7 @@ header {
     background-color: whitesmoke;
 }
 h1 {
-    font-size: 3.7rem;
+    font-size: 3.5rem;
     font-family: "Baskervville SC";
     font-weight: 500;
     color: rgb(83, 31, 0);
@@ -34,32 +34,37 @@ h1 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 0.6rem;
+    gap: 0.5rem;
 }
 .log2 {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
+.log2 button {
+    background-color: rgb(175, 68, 53);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0;
+}
 button a {
     text-decoration: none;
     font-size: 1rem;
     font-family: "Antic";
-    font-weight: 400;
+    font-weight: 500;
     padding: 1rem 0.5rem;
+    color: black;
 }
 .navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 100vw;
-    /* padding: 1.5rem 3rem; */
     background-color: rgb(152, 191, 100);
     flex-wrap: wrap;
 }
 .navbar>a {
     color: rgb(110, 49, 5);
-    /* padding: 1rem; */
     font-family: "Antic";
     text-decoration: none;
     font-weight: 600;
@@ -67,7 +72,13 @@ button a {
     padding: 1.5rem 5rem;
 }
 main {
-    padding: 3rem 0;
+width: 100vw;
+}
+.hpimg {
+    width: 100vw;
+}
+.hpimg>img {
+    width: 100vw;
 }
 .options {
     display: flex;
@@ -93,7 +104,11 @@ img {
     color: rgb(194, 160, 160);
     position: absolute;
     top: 6.1rem;
-    /* background-color: rgba(0, 0, 0, 0.432); */
-    /* padding: 0.5rem 2.3rem; */
     
+}
+.entemail {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
 }
