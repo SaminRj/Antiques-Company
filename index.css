@@ -4,6 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
 /* Antic */
 @import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
+/* Oswald */
+/* Bebas Neue */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 * {
     padding: 0;
@@ -18,18 +21,18 @@ header {
     /* width: 100vw; */
 }
 .title {
+    background-color: whitesmoke;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 2rem 1rem;
-    background-color: whitesmoke;
+    padding: 4rem 1rem;
 }
 
 h1 {
-    font-size: 3.5rem;
-    font-family: "Baskervville SC";
+    font-size: 4rem;
+    font-family: "Baskervville SC" , serif;
     font-weight: 500;
     color: rgb(83, 31, 0);
 }
@@ -50,17 +53,35 @@ h1 {
 .log2 button {
     background-color: rgb(175, 68, 53);
     border: none;
-    border-radius: 0.5rem;
+    border-radius: 0.4rem;
     padding: 0.5rem 0;
+}
+.log2 button:hover {
+    background-color: rgb(119, 47, 37);
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.5rem 0;
+    border: 1.5px black solid;
 }
 
 button a {
     text-decoration: none;
     font-size: 1rem;
-    font-family: "Antic";
+    font-family: "Antic" , serif;
+    /* font-family: "Bebas Neue" , serif; */
     font-weight: 500;
     padding: 1rem 0.5rem;
     color: black;
+}
+
+.log2 button:hover a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: "Antic" , serif;
+    /* font-family: "Bebas Neue" , serif; */
+    font-weight: 500;
+    padding: 1rem 0.5rem;
+    color: wheat;
 }
 
 .navbar {
@@ -70,28 +91,45 @@ button a {
     width: 100%;
     background-color: rgb(152, 191, 100);
     flex-wrap: wrap;
+    position: sticky;
+    top: 0;
 }
 
 .navbar>a {
     color: rgb(110, 49, 5);
-    font-family: "Antic";
+    font-family: "Antic" , serif;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.2rem;
-    padding: 1.5rem 5rem;
+    padding: 1.3rem 5rem;
 }
-main {}
 
-.hpimg {}
+.navbar>a:hover {
+    color: lightgrey;
+    font-family: "Antic" , serif;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 1.3rem 5rem;
+    background-color: rgb(116, 146, 76);
+}
+
+main {
+    /* background-color: beige; */
+    background-color: rgb(255, 238, 196);
+}
 
 .hpimg>img {
     width: 100%;
+    /* box-shadow: inset 0 0 0 2rem black; */
+
 }
 
 .options {
     display: flex;
     justify-content: space-evenly;
     gap: 1rem;
+    padding: 3rem 0;
 }
 
 .options a {
@@ -103,21 +141,71 @@ main {}
 }
 
 .options img {
-    width: 400px;
+    width: 65%;
+    border-radius: 1rem;
+}
+
+.options a:hover span {
+    background-color: rgba(0, 0, 0, 0.534);
 }
 
 .options span {
-    font-family: "Cinzel";
-    font-weight: 500;
+    font-family: "Cinzel" , serif;
+    font-weight: 600;
     font-size: 1.5rem;
-    color: rgb(194, 160, 160);
+    color: rgb(202, 174, 174);
     position: absolute;
-    top: 6.1rem;
+    top: 7rem;
+    padding: 1rem 3.7rem;
 }
 
 .entemail {
-    width: 100vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.5rem;
+    background-color: rgb(166,122,78);
+    /* background-color: rgb(159,172,133); */
+}
+
+.entemail label {
+    font-size: 2.5rem;
+    color: rgb(50,13,0);
+    font-family: "Bebas Neue" , serif;
+}
+
+.entemail form {
     display: flex;
     justify-content: center;
-    padding: 4rem;
+}
+
+.entemail input{
+    border: none;
+    width: 20rem;
+    height: 3rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    /* background-color: rgb(166,122,78); */
+}
+
+.entemail button {
+    /* background-color: rgb(95, 54, 39); */
+    background-color: rgb(77, 34, 19);
+    color: rgb(166,122,78);
+    border: none;
+    padding: 0.5rem;
+    font-family: "Bebas Neue" , serif;
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+.entemail button:hover {
+    cursor: pointer;
+    background-color: rgb(54, 21, 9);
+    color: rgb(190, 150, 109);
+    border: none;
+    padding: 0.5rem;
+    font-family: "Bebas Neue" , serif;
+    font-weight: 100;
+    font-size: 1.2rem;
 }
