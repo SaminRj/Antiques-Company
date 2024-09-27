@@ -72,7 +72,7 @@ button a {
     padding: 1.5rem 5rem;
 }
 main {
-width: 100vw;
+    width: 100vw;
 }
 .hpimg {
     width: 100vw;
@@ -94,7 +94,7 @@ width: 100vw;
     text-decoration: none;
     position: relative;
 }
-img {
+.options img {
     width: 13vw;
 }
 .options span {
