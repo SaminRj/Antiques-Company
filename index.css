@@ -4,49 +4,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
 /* Antic */
 @import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
+    /* width: 100vw; */
 }
 .title {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     padding: 2rem 1rem;
     background-color: whitesmoke;
 }
+
 h1 {
     font-size: 3.5rem;
     font-family: "Baskervville SC";
     font-weight: 500;
     color: rgb(83, 31, 0);
 }
+
 .log1 {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 0.5rem;
 }
+
 .log2 {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
+
 .log2 button {
     background-color: rgb(175, 68, 53);
     border: none;
     border-radius: 0.5rem;
     padding: 0.5rem 0;
 }
+
 button a {
     text-decoration: none;
     font-size: 1rem;
@@ -55,14 +62,16 @@ button a {
     padding: 1rem 0.5rem;
     color: black;
 }
+
 .navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 100vw;
+    width: 100%;
     background-color: rgb(152, 191, 100);
     flex-wrap: wrap;
 }
+
 .navbar>a {
     color: rgb(110, 49, 5);
     font-family: "Antic";
@@ -71,22 +80,20 @@ button a {
     font-size: 1.2rem;
     padding: 1.5rem 5rem;
 }
-main {
-    width: 100vw;
-}
-.hpimg {
-    width: 100vw;
-}
+main {}
+
+.hpimg {}
+
 .hpimg>img {
-    width: 100vw;
+    width: 100%;
 }
+
 .options {
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
-    width: 100vw;
-    flex-wrap: wrap;
+    gap: 1rem;
 }
+
 .options a {
     display: flex;
     flex-direction: column;
@@ -94,9 +101,11 @@ main {
     text-decoration: none;
     position: relative;
 }
+
 .options img {
-    width: 13vw;
+    width: 400px;
 }
+
 .options span {
     font-family: "Cinzel";
     font-weight: 500;
@@ -104,8 +113,8 @@ main {
     color: rgb(194, 160, 160);
     position: absolute;
     top: 6.1rem;
-    
 }
+
 .entemail {
     width: 100vw;
     display: flex;
