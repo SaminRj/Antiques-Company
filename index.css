@@ -93,6 +93,7 @@ button a {
     flex-wrap: wrap;
     position: sticky;
     top: 0;
+    z-index: 10;
 }
 
 .navbar>a {
@@ -141,22 +142,42 @@ main {
 }
 
 .options img {
-    width: 65%;
+    width: 15rem;
+    height: 20rem;
     border-radius: 1rem;
 }
 
 .options a:hover span {
-    background-color: rgba(0, 0, 0, 0.534);
+    background-color: rgba(0, 0, 0, 0.568);
 }
 
-.options span {
+.Carpet {
     font-family: "Cinzel" , serif;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: rgb(202, 174, 174);
     position: absolute;
-    top: 7rem;
+    top: 8rem;
     padding: 1rem 3.7rem;
+}
+
+.lighting {
+    font-family: "Cinzel" , serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: rgb(221, 204, 204);
+    position: absolute;
+    top: 8rem;
+    padding: 1rem 2.75rem;
+}
+.Jewellery {
+    font-family: "Cinzel" , serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: rgb(221, 204, 204);
+    position: absolute;
+    top: 8rem;
+    padding: 1rem 2.25rem;
 }
 
 .entemail {
@@ -164,7 +185,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3.5rem;
+    gap: 0.7rem;
+    padding: 5rem 3.5rem;
     background-color: rgb(166,122,78);
     /* background-color: rgb(159,172,133); */
 }
@@ -199,6 +221,7 @@ main {
     font-weight: 100;
     font-size: 1.2rem;
 }
+
 .entemail button:hover {
     cursor: pointer;
     background-color: rgb(54, 21, 9);
@@ -208,4 +231,96 @@ main {
     font-family: "Bebas Neue" , serif;
     font-weight: 100;
     font-size: 1.2rem;
+}
+
+.newstable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 5rem 3.5rem;
+}
+
+h2 {
+    font-family: "Bebas Neue" , serif;
+    color: rgb(165, 82, 49);
+    font-size: 2.5rem;
+    font-weight: 100;
+
+}
+
+table * {
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    font-family: "Antic" , serif;
+}
+
+th {
+    background-color: rgb(207, 109, 71);
+}
+
+td:first-child {
+    background-color: rgb(230, 135, 97);
+    text-align: center;
+}
+
+td {
+    background-color: rgb(235, 158, 128);
+}
+
+tr td:nth-of-type(3) {
+    background-color: rgb(235, 158, 128);
+    display: flex;
+    justify-content: space-between;
+}
+tr td:nth-of-type(4) {
+    background-color: rgb(235, 158, 128);
+    text-align: center;
+}
+td a {
+    text-decoration: none;
+    color: rgb(165, 82, 49);
+    font-weight: 400;
+}
+
+.shop {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem 4rem;
+    gap: 1.5rem;
+}
+
+.MARGATE {
+    font-size: 3rem;
+    font-family: "Bebas Neue" , serif;
+    color: rgb(103, 126, 107);
+    margin-top: 2rem;
+}
+.shop p {
+    font-size: 1.2rem;
+    font-family: "Antic" , serif;
+    color:rgb(93,98,92);
+
+}
+
+.shop button {
+    background-color: rgb(148,173,152);
+    border: none;
+    padding: 0.3rem 1rem;
+    font-family: "Bebas Neue" , serif;
+    font-weight: 100;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.shop button:hover {
+    background-color: rgb(86, 116, 91);
+    border: none;
+    padding: 0.3rem 1rem;
+    font-family: "Bebas Neue" , serif;
+    font-weight: 100;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    cursor: pointer;
 }
