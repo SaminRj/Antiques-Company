@@ -120,10 +120,10 @@ main {
     background-color: rgb(255, 238, 196);
 }
 
+
 .hpimg>img {
     width: 100%;
     /* box-shadow: inset 0 0 0 2rem black; */
-
 }
 
 .options {
@@ -131,6 +131,7 @@ main {
     justify-content: space-evenly;
     gap: 1rem;
     padding: 3rem 0;
+    flex-wrap: wrap;
 }
 
 .options a {
@@ -297,6 +298,7 @@ td a {
     color: rgb(103, 126, 107);
     margin-top: 2rem;
 }
+
 .shop p {
     font-size: 1.2rem;
     font-family: "Antic" , serif;
@@ -323,4 +325,59 @@ td a {
     font-size: 1.2rem;
     margin-top: 1rem;
     cursor: pointer;
+}
+ #abuotus {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    gap: 1.5rem;
+ }
+
+ #abuotus div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ #abuotus span {
+    font-size: 3rem;
+    font-family: "Bebas Neue" , serif;
+    color: chocolate;
+    margin-top: 2rem;
+ }
+
+ #abuotus p {
+    font-size: 1.4rem;
+    font-family: "Antic" , serif;
+    color: rgb(138, 68, 17);
+    font-weight: 400;
+
+}
+
+#abuotus img {
+width: 20%;
+border-radius: 1rem;
+border-color: rgb(29, 172, 172);
+border-style: solid;
+}
+
+.photo {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: start;
+    gap: 2rem;
+    background-color: rgb(166,122,78);
+    padding: 2.5rem;
+}
+
+.photo img {
+    width: 10%;
+    border-radius: 1rem;
+}
+
+.photo span {
+    font-size: 2rem;
+    color: rgb(77, 34, 19);
+    font-family: "Bebas Neue" , serif;
 }
