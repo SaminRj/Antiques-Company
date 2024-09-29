@@ -127,9 +127,9 @@ main {
     gap: 2rem;
     padding: 2rem 4rem;
     align-items: center;
-    /* background-color: rgb(219, 193, 121); */
-    background: linear-gradient(rgb(100, 54, 17),rgb(194, 116, 53),rgb(230, 161, 104));
-    border-bottom: 3px rgb(122, 43, 33) solid;
+    /* background-color: rgb(216, 166, 109); */
+    background: linear-gradient(rgb(216, 166, 109)25%,rgb(255, 238, 196));
+    /* border-Top: 3px rgb(122, 43, 33) solid; */
 }
 
 .firstmain h2 {
@@ -145,7 +145,7 @@ main {
 }
 
 .firstmain img {
-    width: 20rem;
+    width: 23.5rem;
     border-radius: 2rem;
     margin-left: 10rem;
 }
@@ -155,7 +155,7 @@ main {
 }
 
 .startsell {
-    padding: 5rem 2rem;
+    padding: 2rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -220,21 +220,6 @@ main {
     color: rgb(100, 52, 17);
     font-weight: 600;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 footer {
     background-color: #184042;
