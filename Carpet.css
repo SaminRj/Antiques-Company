@@ -1,0 +1,355 @@
+/* Baskervville SC */
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Cinzel:wght@400..900&display=swap');
+/* Cinzel */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+/* Antic */
+@import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
+/* Oswald */
+/* Bebas Neue */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 100vw; */
+}
+.title {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 4rem 1rem;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: "Baskervville SC" , serif;
+    font-weight: 500;
+    color: rgb(83, 31, 0);
+}
+
+.log1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.log2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.log2 button {
+    background-color: rgb(175, 68, 53);
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.5rem 0;
+}
+.log2 button:hover {
+    background-color: rgb(119, 47, 37);
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.5rem 0;
+    border: 1.5px black solid;
+}
+
+button a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: "Antic" , serif;
+    /* font-family: "Bebas Neue" , serif; */
+    font-weight: 500;
+    padding: 1rem 0.5rem;
+    color: black;
+}
+
+.log2 button:hover a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: "Antic" , serif;
+    /* font-family: "Bebas Neue" , serif; */
+    font-weight: 500;
+    padding: 1rem 0.5rem;
+    color: wheat;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: rgb(152, 191, 100);
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar>a {
+    color: rgb(110, 49, 5);
+    font-family: "Antic" , serif;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 1.3rem 4rem;
+}
+
+.navbar>a:hover {
+    color: lightgrey;
+    font-family: "Antic" , serif;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 1.3rem 4rem;
+    background-color: rgb(116, 146, 76);
+}
+
+main {
+    background-color: rgb(255, 238, 196);
+    flex-direction: column;
+}
+.firstmain {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    gap: 2rem;
+    padding: 2rem 4rem;
+    align-items: center;
+    /* background-color: rgb(216, 166, 109); */
+    background: linear-gradient(rgb(218, 144, 94)25%,rgb(255, 238, 196));
+    /* border-Top: 3px rgb(122, 43, 33) solid; */
+}
+
+.firstmain h2 {
+    font-size: 5.5rem;
+    font-family: "Baskervville SC" , serif;
+    font-weight: 100;
+    /* text-align: center; */
+    color: rgb(122, 43, 33);
+}
+
+.firstmain h2:nth-of-type(2) {
+    margin-left: 4rem;
+}
+
+.firstmain img {
+    width: 23.5rem;
+    border-radius: 2rem;
+    margin-left: 10rem;
+}
+
+.startsell {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+}
+
+.startsell img {
+    width: 16rem;
+    height: 24rem;
+    border-radius: 1rem;
+
+}
+
+.startsell>div {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18rem;
+    padding: 0.5rem;
+    border: 1px rgba(128, 128, 128, 0) solid;
+}
+.startsell>div:hover {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    padding: 0.5rem;
+    border: 1px rgba(128, 128, 128, 0.678) solid;
+}
+
+.startsell>div>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.startsell>div>div>span:nth-of-type(1) {
+    font-size: 1.6rem;
+    font-family: "Baskervville SC" , serif;
+    color: rgb(150, 29, 29);
+    font-weight: 600;
+}
+
+.startsell>div>div>span:nth-of-type(2n) {
+    font-size: 1rem;
+    font-family: "Antic" , serif;
+    font-weight: 500;
+    color: rgb(105, 65, 33);
+
+}
+
+.startsell>div>div>span:nth-of-type(3) {
+    font-size: 1rem;
+    font-family: "Bebas Neue" , serif;
+    color: #2d6063;
+}
+
+.startsell>div>div>span:nth-of-type(5) {
+    font-size: 1.3rem;
+    font-family: "Baskervville SC" , serif;
+    color: rgb(100, 52, 17);
+    font-weight: 600;
+}
+
+.newstable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 3.5rem;
+}
+
+table * {
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    font-family: "Antic" , serif;
+}
+
+th {
+    background-color: rgb(207, 109, 71);
+}
+
+td:first-child {
+    background-color: rgb(230, 135, 97);
+    text-align: center;
+}
+
+td {
+    background-color: rgb(235, 158, 128);
+}
+
+tr td:nth-of-type(3) {
+    background-color: rgb(235, 158, 128);
+    display: flex;
+    justify-content: space-between;
+}
+tr td:nth-of-type(4) {
+    background-color: rgb(235, 158, 128);
+    text-align: center;
+}
+td a {
+    text-decoration: none;
+    color: rgb(165, 82, 49);
+    font-weight: 400;
+}
+
+footer {
+    background-color: #184042;
+    display: flex;
+    flex-direction: column;
+    /* padding-bottom: 0; */
+}
+.foo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.foo>div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.foo span {
+    font-family: "Antic" , serif;
+    font-weight: 300;
+    font-size: 0.7rem;
+    color: whitesmoke;
+}
+.foo span:hover {
+    font-family: "Antic" , serif;
+    font-weight: 300;
+    font-size: 0.7rem;
+    color: whitesmoke;
+    text-decoration: underline;
+}
+.foo h4 {
+    font-family: "Bebas Neue" , serif;
+    color: rgb(166,122,78);
+    font-weight: 100;
+    font-size: 1.3rem;
+}
+h3 {
+    font-family: "Baskervville SC" , serif;
+    color:bisque;
+    font-weight: 200;
+    font-size: 1.6rem;
+}
+.last {
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    color: gray;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.s1 {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1000px) {
+    .shop img {
+        display: none;
+    }
+    #abuotus img {
+        display: none;
+    }
+    .title {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .firstmain {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .newstable {
+        display: none;
+    }
+}
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .navbar {
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar a{
+        padding: 0.5rem;
+    }
+    footer {
+        font-size: 0.5rem;
+    }
+}
