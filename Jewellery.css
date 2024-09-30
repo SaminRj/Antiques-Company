@@ -130,7 +130,7 @@ main {
     padding: 2rem 4rem;
     align-items: center;
     /* background-color: rgb(216, 166, 109); */
-    background: linear-gradient(rgb(182, 221, 219)25%,rgb(255, 238, 196));
+    background: linear-gradient(rgb(199, 224, 215)25%,rgb(255, 238, 196));
     /* border-Top: 3px rgb(122, 43, 33) solid; */
 }
 
@@ -238,21 +238,21 @@ th {
 }
 
 td:first-child {
-    background-color: rgb(138, 196, 182);
+    background-color: rgb(146, 185, 167);
     text-align: center;
 }
 
 td {
-    background-color: rgb(181, 209, 200);
+    background-color: rgb(190, 211, 201);
 }
 
 tr td:nth-of-type(3) {
-    background-color: rgb(181, 209, 200);
+    background-color: rgb(190, 211, 201);
     display: flex;
     justify-content: space-between;
 }
 tr td:nth-of-type(4) {
-    background-color: rgb(181, 209, 200);
+    background-color: rgb(190, 211, 201);
     text-align: center;
 }
 td a {
