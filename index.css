@@ -192,6 +192,42 @@ main {
     /* background-color: rgb(159,172,133); */
 }
 
+.top {
+    width: 2.4rem;
+    height: 2.4rem;
+    background-color: rgb(177, 50, 33);
+    border-radius: 0.6rem;
+    /* border: 1px black double; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 0.7rem;
+    bottom: 0.7rem;
+    text-decoration: none;
+}
+
+.top:hover {
+    width: 2.4rem;
+    height: 2.4rem;
+    background-color: rgb(119, 27, 15);
+    border-radius: 0.6rem;
+    /* border: 1px black double; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 0.7rem;
+    bottom: 0.7rem;
+    text-decoration: none;
+}
+
+.top span {
+    font-family: "Bebas Neue" , serif;
+    font-size: 1.2rem;
+    color: rgb(26, 1, 1);
+}
+
 .entemail label {
     font-size: 2.5rem;
     color: rgb(50,13,0);
